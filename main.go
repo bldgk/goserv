@@ -4,6 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"github.com/gorilla/mux"
+	"log"
+
 	//"log"
 	"net/http"
 	"os"
@@ -68,7 +70,7 @@ func main() {
 
 	fmt.Printf("Goserv listening on %s\n", srv.Addr)
 
-	//log.Fatal(srv.ListenAndServe())
+	log.Fatal(srv.ListenAndServe())
 }
 
 func setupResponse(w *http.ResponseWriter, _ *http.Request) {

@@ -1,0 +1,1 @@
+https://github.com/gorilla/mux/blob/master/README.md#serving-single-page-applications
